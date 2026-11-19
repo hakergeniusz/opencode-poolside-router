@@ -1,0 +1,19 @@
+{
+  "name": "opencode-poolside-router",
+  "version": "0.1.0",
+  "description": "OpenCode V2 routing plugin for Poolside AI laguna-s / laguna-xs with multi-key failover",
+  "type": "module",
+  "license": "MIT",
+  "keywords": ["opencode", "opencode-plugin", "poolside", "router", "laguna"],
+  "exports": { ".": "./src/index.ts" },
+  "files": ["src"],
+  "scripts": {
+    "test": "bun test"
+  },
+  "dependencies": {
+    "@opencode/plugin": "latest"
+  },
+  "devDependencies": {
+    "typescript": "latest"
+  }
+}
